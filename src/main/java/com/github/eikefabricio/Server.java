@@ -18,7 +18,7 @@ public class Server {
             e.printStackTrace();
         }
 
-        System.out.println("-> [STARTING] Servidor iniciando na porta " + port + "!");
+        System.out.println("-> [STARTING] Servidor iniciando na porta " + port + "...");
     }
 
     public HttpServer getHttpServer() {
